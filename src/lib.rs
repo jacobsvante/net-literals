@@ -8,7 +8,7 @@ use {
     syn::LitStr,
     proc_macro::TokenStream,
     quote::quote,
-    proc_macro_error::{abort, proc_macro_error},
+    proc_macro_error2::{abort, proc_macro_error},
 };
 
 #[proc_macro_error]
